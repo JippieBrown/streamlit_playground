@@ -19,15 +19,22 @@ st.subheader("Project Info")
 col1, col2, col3 = st.columns([1,2,1])
 
 col1.markdown("Hello")
+
 col1.markdown("PARTY ALARM!!!!!")
-col1.markdown("Heute gabs Brei :)")
+
+col1.markdown('''
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item
+''')
+
 col2.markdown("HelloHelloHelloHelloHelloHello")
 
 col3.markdown("Hello")
 
 cam = col2.camera_input("Take a photo")
 
-
-
 xml_file = col2.file_uploader("Read XML")
-

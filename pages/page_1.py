@@ -20,7 +20,7 @@ if st.button('add'):
 from PIL import Image
 image = Image.open('Siemens_Energy_logo.png')
 
-st.image(image, caption='Sunrise by the mountains', width=200)
+st.image(image, caption='caption text', width=200)
 # bootstrap 4 collapse example
 components.html(
     '''
