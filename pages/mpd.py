@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-HtmlFile = open("html/gant_css.html", 'r', encoding='utf-8')
+HtmlFile = open('html/gantt_css.html', 'r', encoding='utf-8')
 
 components.html(
 '''
