@@ -33,7 +33,7 @@ col1.markdown('''
 
 col2.markdown("HelloHelloHelloHelloHelloHello")
 
-col3.markdown("Hello")
+col3.markdown("I need to highlight these ==very important words==.")
 
 cam = col2.camera_input("Take a photo")
 
