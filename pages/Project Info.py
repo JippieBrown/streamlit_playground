@@ -19,7 +19,7 @@ st.subheader("Project Info")
 col1, col2, col3 = st.columns([1,2,1])
 
 col1.markdown("Hello")
-
+col1.markdown("PARTY ALARM!!!!!")
 col2.markdown("HelloHelloHelloHelloHelloHello")
 
 col3.markdown("Hello")
