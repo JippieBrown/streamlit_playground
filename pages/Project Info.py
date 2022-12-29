@@ -38,3 +38,10 @@ col3.markdown("I need to highlight these ==very important words==.")
 cam = col2.camera_input("Take a photo")
 
 xml_file = col2.file_uploader("Read XML")
+
+
+
+
+tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
+tab1.write("this is tab 1")
+tab2.write("this is tab 2")
