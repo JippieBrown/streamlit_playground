@@ -1,4 +1,4 @@
 streamlit_folium
 folium
 sqlite3
-st_aggrid
+# st_aggrid
