@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
 import numpy as np
-import leafmap.foliumap as leafmap
+# import leafmap.foliumap as leafmap
 from streamlit_folium import st_folium
 import folium
 
