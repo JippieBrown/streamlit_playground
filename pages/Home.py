@@ -27,3 +27,6 @@ components.html(
     ''',
     height=600,width=600
 )
+
+
+st.write("LOOOOOOLL wie krass")
