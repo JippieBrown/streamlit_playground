@@ -30,3 +30,10 @@ components.html(
 
 
 st.write("LOOOOOOLL wie krass")
+
+import code_server.handler
+code_server.handler.start()
+import webbrowser
+if st.button('code'):
+	webbrowser.open(f"http://localhost:{code_server.handler.port}")
+
