@@ -2,7 +2,7 @@ import streamlit as st
 
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup as bs
 
 def search(query):
     # Suchanfrage an die Google-Suche senden
@@ -10,7 +10,7 @@ def search(query):
     response = requests.get(url)
 
     # HTML-Antwort parsen
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = bs(response.text, "html.parser")
 
     # Erstes Suchergebnis auswählen
     result = soup.find("div", {"class": "g"})
